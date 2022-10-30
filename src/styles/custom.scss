@@ -1,0 +1,18 @@
+/* The following block can be included in a custom.scss */
+
+/* make the customizations */
+$theme-colors: (
+  "danger": tomato,
+  "secondary": rgb(11, 61, 145),
+  "light": rgb(240, 231, 231),
+  "primary": rgb(255, 109, 122),
+  "dark": #333,
+);
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,700;1,500&display=swap");
+
+$font-family-sans-serif: "Barlow", sans-serif;
+$tab-link: rgb(255, 109, 122);
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
